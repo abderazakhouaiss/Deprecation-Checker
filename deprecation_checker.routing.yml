@@ -1,0 +1,7 @@
+deprecated_code.list:
+  path: '/admin/development/deprecated-code'
+  defaults:
+    _controller: '\Drupal\deprecation_checker\Controller\DeprecatedCodeController::list'
+    _title: 'Deprecated Code'
+  requirements:
+    _permission: 'access administration pages'

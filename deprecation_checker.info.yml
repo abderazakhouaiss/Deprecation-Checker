@@ -1,0 +1,6 @@
+name: Deprecation Checker
+type: module
+description: A custom module to check for deprecated code.
+package: Development
+core: 8.x
+core_version_requirement: ^8 || ^9
